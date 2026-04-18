@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { useToast } from '@/components/ui/use-toast'
 import { formatCurrency, formatDate, formatIndianNumber, statusColors } from '@/lib/utils'
 import { CGST_RATE, SGST_RATE, IGST_RATE } from '@/lib/gst'
-import { InvoicePDF, downloadPDF } from '@/lib/pdf'
+import { InvoicePDF, downloadPDF } from '@/lib/pdf.jsx'
 import { PDFViewer } from '@react-pdf/renderer'
 import {
   ArrowLeft, Download, Printer, FileText, CheckCircle, Send,

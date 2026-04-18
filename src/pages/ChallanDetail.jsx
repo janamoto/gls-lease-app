@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { useToast } from '@/components/ui/use-toast'
 import { formatDate, statusColors } from '@/lib/utils'
-import { ChallanPDF, downloadPDF } from '@/lib/pdf'
+import { ChallanPDF, downloadPDF } from '@/lib/pdf.jsx'
 import { PDFViewer } from '@react-pdf/renderer'
 import {
   ArrowLeft, Download, Printer, FileText, Calendar,
